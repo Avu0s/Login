@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,26 @@
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
+
 <body>
     <div class="modal">
         <h3>Welcome back!</h1>
         <p>Please enter your login details</p>
         <div class="content">
             <form action="#">
-               <input type="email" name ="email" class="box" placeholder="Email" required>
-               <input type="password" name ="password" class="box" placeholder="Password" id="pass" required>
-              
-               <label for="checkbox">
-                  <input type="checkbox" name="checkbox" id="checkbox" name="rmbr"> 
-                    <span id="check">Remember Me</span> 
-               </label>
-               <span id="forgot">Forgot Password</span>
-               <button type="submit" id="login">Login</button>
+                <input type="email" name="email" class="box" placeholder="Email" required>
+                <input type="password" name="password" class="box" placeholder="Password" id="pass" required>
+                <div id="wrap">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <div id="chk">
+                        <label for="checkbox" id="check">Remember Me</label>
+                        <span id="forgot">Forgot Password</span>
+                    </div>
+                </div>
+                <button type="submit" id="login">Login</button>
             </form>
         </div>
     </div>
-    <script src="app.js"></script>
 </body>
+
 </html>
