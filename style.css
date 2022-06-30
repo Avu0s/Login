@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
 }
-
 body {
   height: 100vh;
   background-color: #dedcf4;
@@ -14,7 +12,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .modal {
   margin: auto;
   padding: 2.5rem;
@@ -27,15 +24,12 @@ body {
   border-radius: 0.1rem;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
-
 h3 {
   font-weight: bold;
 }
-
 p {
   font-size: 0.75rem;
 }
-
 form {
   display: flex;
   flex-direction: column;
@@ -44,35 +38,33 @@ form {
   row-gap: 1.5rem;
   margin-top: 1rem;
 }
-
 #check,
 #forgot,
 #checkbox,
 button {
   cursor: pointer;
 }
-
 #wrap {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
-
 #chk {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
-
 #check {
   font-size: 0.55rem;
   padding: 0.15rem;
 }
-
 #forgot {
-  font-size: 0.55rem;
   text-decoration: underline;
+  font-size: 0.55rem;
+  color: #4b4770;
 }
-
 .box {
   height: 2rem;
   width: 100%;
@@ -83,7 +75,6 @@ button {
   border-radius: 0.1rem;
   box-shadow: 0 1px 6px 0 rgba(205, 205, 205, 0.2);
 }
-
 button {
   padding: 0 6rem;
   height: 2.5rem;
@@ -96,7 +87,6 @@ button {
   border-radius: 0.1rem;
   box-shadow: 0 1px 6px 0 rgba(205, 205, 205, 0.2);
 }
-
 .box:focus {
   border: 0;
   border: 0.11rem solid #4b4770;
